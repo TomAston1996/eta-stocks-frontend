@@ -18,9 +18,13 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["./*", "src/"]
+    },
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
+    "src", "**/*.ts", "**/*.tsx", ".eslintrc.js", "tailwind.config.js"
   ]
 }
