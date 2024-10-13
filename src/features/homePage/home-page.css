@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #000028;
+    background-color: #384959;
 }
   
 .page-container-home {
@@ -11,7 +11,7 @@
     justify-content: start;
     align-items: center;
     gap: 40px;
-    background-color: #000028;
+    background-color: #384959;
     min-height: 100vh;
     padding-top: 50px;
     padding-left: 50px;

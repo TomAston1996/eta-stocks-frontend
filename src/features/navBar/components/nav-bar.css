@@ -2,7 +2,7 @@
 
 .outer-container {
     margin: 0;
-    background-color: #000028;
+    background-color: #6a89a7;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -16,7 +16,7 @@
     align-content: space-between;
     column-gap: 411px;
     flex-wrap: wrap;
-    background: #000028;
+    background: #6a89a7;
     min-width: 1500px;
     width: 100%;
 }
