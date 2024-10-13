@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-// import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './home-page.css';
 
 export const HomePage = () => {

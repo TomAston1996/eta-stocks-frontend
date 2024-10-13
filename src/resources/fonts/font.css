@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "SiemensSans";
+    src:url("./SiemensSans_Global_Roman.ttf");
+}
+
+@font-face {
+    font-family: "SiemensSansBold";
+    src:url("./SiemensSans_Global_Bold.ttf");
+}
+
+@font-face {
+    font-family: "SiemensSansBoldItalic";
+    src:url("./SiemensSans_Global_BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "SiemensSansItalic";
+    src:url("./SiemensSans_Global_Italic.ttf");
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { RouteObject } from 'react-router-dom';
 
+import PageFooter from './features/footer/components/PageFooter';
 import { HomePage } from './features/homePage/HomePage';
 import { NavBar } from './features/navBar/components/NavBar';
 
@@ -12,6 +13,7 @@ const routes: RouteObject[] = [
       <>
         <NavBar />
         <HomePage />
+        <PageFooter />
       </>
     ),
   },
