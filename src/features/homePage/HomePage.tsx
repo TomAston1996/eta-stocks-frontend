@@ -2,6 +2,7 @@ import React from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './home-page.css';
+import CandlestickChart from '../charts/CandlestickChart';
 
 export const HomePage = () => {
   return (
@@ -15,6 +16,9 @@ export const HomePage = () => {
         <li>ETF profile breakdown</li>
         <li>Description</li>
       </ul>
+      <div>
+        <CandlestickChart symbol="LON:VUAG" />
+      </div>
     </div>
   );
 };

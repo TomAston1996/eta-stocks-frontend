@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 // eslint-disable-next-line import/no-cycle
 // import { RootState } from '../app/store';
 
-import { IStockItem } from './query.interface';
+import { ISeriesStockData, IStockItem } from './query.interface';
 
 export const etaStocksApi = createApi({
   reducerPath: 'etaStocksApi',
@@ -24,7 +24,14 @@ export const etaStocksApi = createApi({
       }),
       providesTags: (result) => (result ? ['User'] : ['User']),
     }),
+    GetMonthlyStockData: builder.query<ISeriesStockData, string>({
+      query: (symbol: string) => ({
+        method: 'GET',
+        url: `avStocks/series?symbol=${symbol}&function=monthly`,
+      }),
+      providesTags: (result) => (result ? ['AlphaVantage'] : ['AlphaVantage']),
+    }),
   }),
 });
 
-export const { useGetUserStocksQuery } = etaStocksApi;
+export const { useGetUserStocksQuery, useGetMonthlyStockDataQuery } = etaStocksApi;
