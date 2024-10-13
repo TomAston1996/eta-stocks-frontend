@@ -1,0 +1,29 @@
+.UnitCardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #000028;
+}
+  
+.page-container-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 40px;
+    background-color: #000028;
+    min-height: 100vh;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 150px;
+}
+
+.page-container-home .header-container-home {
+    padding-left: 5px;
+    width: 60%;
+    color: white;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
