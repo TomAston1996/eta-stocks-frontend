@@ -56,7 +56,7 @@ export default function CandlestickChart({ symbol }: ICandlestickChartProps) {
       text: symbol,
     },
     subtitle: {
-      text: 'Candlestick Patterns',
+      text: data?.metaData['1. Information'],
     },
     footnote: {
       text: 'Monthly',
