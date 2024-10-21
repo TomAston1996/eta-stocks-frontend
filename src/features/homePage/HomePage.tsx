@@ -3,6 +3,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './home-page.css';
 import CandlestickChart from '../charts/CandlestickChart';
+import Table, { TableType } from '../table/components/Table';
 
 export const HomePage = () => {
   return (
@@ -16,8 +17,12 @@ export const HomePage = () => {
         <li>ETF profile breakdown</li>
         <li>Description</li>
       </ul>
-      <div>
-        <CandlestickChart symbol="LON:VUAG" />
+      <div style={{ width: 1000 }}>
+        <div>
+          <CandlestickChart symbol="QQQ" />
+        </div>
+        <Table symbol="QQQ" type={TableType.SECTOR} />
+        <Table symbol="QQQ" type={TableType.HOLDING} />
       </div>
     </div>
   );

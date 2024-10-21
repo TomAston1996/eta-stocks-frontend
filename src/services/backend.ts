@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 // eslint-disable-next-line import/no-cycle
 // import { RootState } from '../app/store';
 
-import { ISeriesStockData, IStockItem } from './query.interface';
+import { IEtfProfileData, ISeriesStockData, IStockItem } from './query.interface';
 
 export const etaStocksApi = createApi({
   reducerPath: 'etaStocksApi',
@@ -31,7 +31,14 @@ export const etaStocksApi = createApi({
       }),
       providesTags: (result) => (result ? ['AlphaVantage'] : ['AlphaVantage']),
     }),
+    GetEtfProfileData: builder.query<IEtfProfileData, string>({
+      query: (symbol: string) => ({
+        method: 'GET',
+        url: `avStocks/etf?symbol=${symbol}&function=etfProfile`,
+      }),
+      providesTags: (result) => (result ? ['AlphaVantage'] : ['AlphaVantage']),
+    }),
   }),
 });
 
-export const { useGetUserStocksQuery, useGetMonthlyStockDataQuery } = etaStocksApi;
+export const { useGetUserStocksQuery, useGetMonthlyStockDataQuery, useGetEtfProfileDataQuery } = etaStocksApi;

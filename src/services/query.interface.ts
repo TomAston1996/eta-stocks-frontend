@@ -20,14 +20,14 @@ export interface ISeriesStockItem {
   highStockPrice: number;
 }
 
-export interface IEtfProfileData {
-  sectorsData: IEtfProfileItem[];
-}
+// export interface IEtfProfileData {
+//   sectorsData: IEtfProfileItem[];
+// }
 
-export interface IEtfProfileItem {
-  sector: string;
-  weight: string;
-}
+// export interface IEtfProfileItem {
+//   sector: string;
+//   weight: string;
+// }
 
 export interface ITickerData {
   bestMatches: ITickerItem[];
@@ -45,4 +45,20 @@ export interface IUserItem {
   userId: number;
   email: string;
   createdOn: number;
+}
+
+export interface ISectorItem {
+  sector: string;
+  weight: string;
+}
+
+export interface IHoldingItem {
+  symbol: string;
+  description: string;
+  weight: string;
+}
+
+export interface IEtfProfileData {
+  sectorsData: ISectorItem[];
+  topTenHoldings: IHoldingItem[];
 }

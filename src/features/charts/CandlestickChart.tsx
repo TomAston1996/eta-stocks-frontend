@@ -38,7 +38,7 @@ export default function CandlestickChart({ symbol }: ICandlestickChartProps) {
   const [seriesData, setSeriesData] = useState<IAGSeriesDataItem[]>([]);
 
   const pollingInterval = 0;
-  //getting unique technical issue number
+
   const { data, error, isLoading, isFetching } = useGetMonthlyStockDataQuery(symbol, {
     pollingInterval,
   });
