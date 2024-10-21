@@ -8,9 +8,12 @@ import 'react-bootstrap-table2-filter/dist/react-bootstrap-table2-filter.min.css
 import 'react-bootstrap-table2-paginator/dist/react-bootstrap-table2-paginator.min.css';
 import { useGetEtfProfileDataQuery } from '../../../services/backend';
 import { IHoldingItem, ISectorItem } from '../../../services/query.interface';
+import DummyData from '../files/dummyEtfProfileData.json';
 import { holdingTableColumns, sectorTableColumns } from '../tableColumns';
 
 import '../table.css';
+
+const USE_DUMMY = true;
 
 export enum TableType {
   SECTOR,
@@ -64,11 +67,20 @@ export default function Table({ symbol, type }: TableProps) {
 
   return (
     <>
-      {isLoading ? null : data ? (
+      {isLoading ? null : data || USE_DUMMY ? (
         <div className="etf-table">
+          <h4>{type == TableType.SECTOR ? 'Sectors Breakdown' : 'Holdings Breakdown'}</h4>
           <BootstrapTable
             keyField="weight"
-            data={type == TableType.HOLDING ? holdingData : sectorData}
+            data={
+              type == TableType.HOLDING
+                ? USE_DUMMY
+                  ? DummyData.topTenHoldings
+                  : holdingData
+                : USE_DUMMY
+                  ? DummyData.sectorsData
+                  : sectorData
+            }
             columns={type == TableType.HOLDING ? holdingTableColumns : sectorTableColumns}
             hover
             bordered={false}

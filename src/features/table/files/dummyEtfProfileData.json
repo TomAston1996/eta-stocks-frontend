@@ -1,0 +1,96 @@
+{
+    "sectorsData": [
+        {
+            "sector": "INFORMATION TECHNOLOGY",
+            "weight": "0.495"
+        },
+        {
+            "sector": "COMMUNICATION SERVICES",
+            "weight": "0.162"
+        },
+        {
+            "sector": "CONSUMER DISCRETIONARY",
+            "weight": "0.117"
+        },
+        {
+            "sector": "CONSUMER STAPLES",
+            "weight": "0.058"
+        },
+        {
+            "sector": "HEALTHCARE",
+            "weight": "0.056"
+        },
+        {
+            "sector": "INDUSTRIALS",
+            "weight": "0.045"
+        },
+        {
+            "sector": "MATERIALS",
+            "weight": "0.015"
+        },
+        {
+            "sector": "UTILITIES",
+            "weight": "0.014"
+        },
+        {
+            "sector": "ENERGY",
+            "weight": "0.006"
+        },
+        {
+            "sector": "FINANCIALS",
+            "weight": "0.005"
+        }
+    ],
+    "topTenHoldings": [
+        {
+            "symbol": "AAPL",
+            "description": "APPLE INC",
+            "weight": "0.0878"
+        },
+        {
+            "symbol": "NVDA",
+            "description": "NVIDIA CORP",
+            "weight": "0.0819"
+        },
+        {
+            "symbol": "MSFT",
+            "description": "MICROSOFT CORP",
+            "weight": "0.0781"
+        },
+        {
+            "symbol": "AVGO",
+            "description": "BROADCOM INC",
+            "weight": "0.056"
+        },
+        {
+            "symbol": "META",
+            "description": "META PLATFORMS INC CLASS A",
+            "weight": "0.0516"
+        },
+        {
+            "symbol": "AMZN",
+            "description": "AMAZON.COM INC",
+            "weight": "0.0489"
+        },
+        {
+            "symbol": "TSLA",
+            "description": "TESLA INC",
+            "weight": "0.0293"
+        },
+        {
+            "symbol": "COST",
+            "description": "COSTCO WHOLESALE CORP",
+            "weight": "0.0262"
+        },
+        {
+            "symbol": "GOOGL",
+            "description": "ALPHABET INC CLASS A",
+            "weight": "0.0239"
+        },
+        {
+            "symbol": "GOOG",
+            "description": "ALPHABET INC CLASS C",
+            "weight": "0.0229"
+        }
+    ]
+}

@@ -17,10 +17,8 @@ export const HomePage = () => {
         <li>ETF profile breakdown</li>
         <li>Description</li>
       </ul>
-      <div style={{ width: 1000 }}>
-        <div>
-          <CandlestickChart symbol="QQQ" />
-        </div>
+      <div style={{ display: 'flex', flexDirection: 'column', width: 1500, gap: 50 }}>
+        <CandlestickChart symbol="QQQ" />
         <Table symbol="QQQ" type={TableType.SECTOR} />
         <Table symbol="QQQ" type={TableType.HOLDING} />
       </div>

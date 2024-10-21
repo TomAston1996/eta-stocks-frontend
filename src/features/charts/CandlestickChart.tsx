@@ -62,8 +62,8 @@ export default function CandlestickChart({ symbol }: ICandlestickChartProps) {
       text: 'Monthly',
     },
     theme: 'ag-vivid-dark',
-    width: 1200,
-    height: 700,
+    width: 1500,
+    height: 875,
     series: [
       {
         type: 'candlestick',
