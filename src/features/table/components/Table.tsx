@@ -6,14 +6,13 @@ import paginationFactory from 'react-bootstrap-table2-paginator';
 import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
 import 'react-bootstrap-table2-filter/dist/react-bootstrap-table2-filter.min.css';
 import 'react-bootstrap-table2-paginator/dist/react-bootstrap-table2-paginator.min.css';
+import { USE_DUMMY } from '../../../app/config';
 import { useGetEtfProfileDataQuery } from '../../../services/backend';
 import { IHoldingItem, ISectorItem } from '../../../services/query.interface';
 import DummyData from '../files/dummyEtfProfileData.json';
 import { holdingTableColumns, sectorTableColumns } from '../tableColumns';
 
 import '../table.css';
-
-const USE_DUMMY = true;
 
 export enum TableType {
   SECTOR,

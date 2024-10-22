@@ -5,8 +5,11 @@ import { AgCharts } from 'ag-charts-react';
 import './candlestick.css';
 
 import 'ag-charts-enterprise';
+import { USE_DUMMY } from '../../app/config';
 import { useGetMonthlyStockDataQuery } from '../../services/backend';
 import { ISeriesStockItem } from '../../services/query.interface';
+
+import DummyData from './files/dummyAVSeriesData.json';
 
 interface ICandlestickChartProps {
   symbol: string;
@@ -51,19 +54,18 @@ export default function CandlestickChart({ symbol }: ICandlestickChartProps) {
   }, [data]);
 
   const options: any = {
-    data: seriesData,
+    data: USE_DUMMY ? mapAVSeriesToAGSeriesDataType(DummyData.seriesData) : seriesData,
     title: {
       text: symbol,
     },
     subtitle: {
-      text: data?.metaData['1. Information'],
+      text: USE_DUMMY ? DummyData.metaData['1. Information'] : data?.metaData['1. Information'],
     },
     footnote: {
       text: 'Monthly',
     },
     theme: 'ag-vivid-dark',
-    width: 1500,
-    height: 875,
+    minHeight: 600,
     series: [
       {
         type: 'candlestick',

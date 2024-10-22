@@ -1,7 +1,6 @@
 .candlestick-chart-wrapper {
-    background-color: 192232;
-    background: 192232;
-    width: auto;
-    height: auto;
+    background-color: var(--body-background);
     border: 1px solid #00CCCC;
+    padding: 10px;
+    border-radius: 10px;
 }

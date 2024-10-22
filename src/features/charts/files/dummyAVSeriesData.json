@@ -1,0 +1,465 @@
+{
+    "metaData": {
+        "1. Information": "Monthly Prices (open, high, low, close) and Volumes",
+        "2. Symbol": "LON:VUAG",
+        "3. Last Refreshed": "2024-10-21",
+        "4. Time Zone": "US/Eastern"
+    },
+    "seriesData": [
+        {
+            "unixTimestamp": 1729465200000,
+            "openStockPrice": 81.7,
+            "closeStockPrice": 85.19,
+            "lowStockPrice": 81.08,
+            "highStockPrice": 85.97
+        },
+        {
+            "unixTimestamp": 1727650800000,
+            "openStockPrice": 81.28,
+            "closeStockPrice": 81.2,
+            "lowStockPrice": 78.12,
+            "highStockPrice": 83.0
+        },
+        {
+            "unixTimestamp": 1724972400000,
+            "openStockPrice": 81.95,
+            "closeStockPrice": 80.775,
+            "lowStockPrice": 75.58,
+            "highStockPrice": 82.56
+        },
+        {
+            "unixTimestamp": 1722380400000,
+            "openStockPrice": 81.75,
+            "closeStockPrice": 81.49,
+            "lowStockPrice": 79.3,
+            "highStockPrice": 90.0
+        },
+        {
+            "unixTimestamp": 1719529200000,
+            "openStockPrice": 78.58,
+            "closeStockPrice": 82.37,
+            "lowStockPrice": 77.6472,
+            "highStockPrice": 83.4
+        },
+        {
+            "unixTimestamp": 1717110000000,
+            "openStockPrice": 76.11,
+            "closeStockPrice": 77.385,
+            "lowStockPrice": 75.71,
+            "highStockPrice": 79.44
+        },
+        {
+            "unixTimestamp": 1714431600000,
+            "openStockPrice": 78.73,
+            "closeStockPrice": 76.595,
+            "lowStockPrice": 75.47,
+            "highStockPrice": 78.99
+        },
+        {
+            "unixTimestamp": 1711584000000,
+            "openStockPrice": 76.12,
+            "closeStockPrice": 78.4,
+            "lowStockPrice": 74.81,
+            "highStockPrice": 78.73
+        },
+        {
+            "unixTimestamp": 1709164800000,
+            "openStockPrice": 72.27,
+            "closeStockPrice": 75.775,
+            "lowStockPrice": 71.9466,
+            "highStockPrice": 76.0
+        },
+        {
+            "unixTimestamp": 1706659200000,
+            "openStockPrice": 70.62,
+            "closeStockPrice": 72.32,
+            "lowStockPrice": 69.35,
+            "highStockPrice": 73.3
+        },
+        {
+            "unixTimestamp": 1703808000000,
+            "openStockPrice": 67.92,
+            "closeStockPrice": 70.645,
+            "lowStockPrice": 67.66,
+            "highStockPrice": 71.02
+        },
+        {
+            "unixTimestamp": 1701302400000,
+            "openStockPrice": 64.62,
+            "closeStockPrice": 67.535,
+            "lowStockPrice": 64.51,
+            "highStockPrice": 84.6546
+        },
+        {
+            "unixTimestamp": 1698710400000,
+            "openStockPrice": 66.21,
+            "closeStockPrice": 64.49,
+            "lowStockPrice": 63.8,
+            "highStockPrice": 67.47
+        },
+        {
+            "unixTimestamp": 1695942000000,
+            "openStockPrice": 66.75,
+            "closeStockPrice": 66.28,
+            "lowStockPrice": 65.5422,
+            "highStockPrice": 68.26
+        },
+        {
+            "unixTimestamp": 1693436400000,
+            "openStockPrice": 66.97,
+            "closeStockPrice": 66.875,
+            "lowStockPrice": 63.83,
+            "highStockPrice": 67.35
+        },
+        {
+            "unixTimestamp": 1690758000000,
+            "openStockPrice": 65.56,
+            "closeStockPrice": 66.665,
+            "lowStockPrice": 63.8,
+            "highStockPrice": 67.07
+        },
+        {
+            "unixTimestamp": 1688079600000,
+            "openStockPrice": 62.89,
+            "closeStockPrice": 65.32,
+            "lowStockPrice": 62.26,
+            "highStockPrice": 65.53
+        },
+        {
+            "unixTimestamp": 1685487600000,
+            "openStockPrice": 62.21,
+            "closeStockPrice": 62.78,
+            "lowStockPrice": 59.9477,
+            "highStockPrice": 63.82
+        },
+        {
+            "unixTimestamp": 1682636400000,
+            "openStockPrice": 62.06,
+            "closeStockPrice": 61.505,
+            "lowStockPrice": 60.66,
+            "highStockPrice": 62.55
+        },
+        {
+            "unixTimestamp": 1680217200000,
+            "openStockPrice": 61.27,
+            "closeStockPrice": 61.44,
+            "lowStockPrice": 58.58,
+            "highStockPrice": 63.06
+        },
+        {
+            "unixTimestamp": 1677542400000,
+            "openStockPrice": 61.34,
+            "closeStockPrice": 61.14,
+            "lowStockPrice": 60.9594,
+            "highStockPrice": 64.1986
+        },
+        {
+            "unixTimestamp": 1675123200000,
+            "openStockPrice": 59.8,
+            "closeStockPrice": 60.99,
+            "lowStockPrice": 58.419,
+            "highStockPrice": 61.12
+        },
+        {
+            "unixTimestamp": 1672358400000,
+            "openStockPrice": 62.6,
+            "closeStockPrice": 59.035,
+            "lowStockPrice": 57.79,
+            "highStockPrice": 62.6468
+        },
+        {
+            "unixTimestamp": 1669766400000,
+            "openStockPrice": 62.58,
+            "closeStockPrice": 61.41,
+            "lowStockPrice": 60.8,
+            "highStockPrice": 63.17
+        },
+        {
+            "unixTimestamp": 1667174400000,
+            "openStockPrice": 59.38,
+            "closeStockPrice": 62.445,
+            "lowStockPrice": 57.81,
+            "highStockPrice": 64.535
+        },
+        {
+            "unixTimestamp": 1664492400000,
+            "openStockPrice": 62.7,
+            "closeStockPrice": 60.83,
+            "lowStockPrice": 60.3858,
+            "highStockPrice": 68.0
+        },
+        {
+            "unixTimestamp": 1661900400000,
+            "openStockPrice": 62.33,
+            "closeStockPrice": 63.13,
+            "lowStockPrice": 61.66,
+            "highStockPrice": 66.41
+        },
+        {
+            "unixTimestamp": 1659049200000,
+            "openStockPrice": 57.16,
+            "closeStockPrice": 62.045,
+            "lowStockPrice": 56.9193,
+            "highStockPrice": 62.77
+        },
+        {
+            "unixTimestamp": 1656543600000,
+            "openStockPrice": 60.58,
+            "closeStockPrice": 57.34,
+            "lowStockPrice": 54.9135,
+            "highStockPrice": 61.1742
+        },
+        {
+            "unixTimestamp": 1653951600000,
+            "openStockPrice": 61.08,
+            "closeStockPrice": 60.19,
+            "lowStockPrice": 56.9622,
+            "highStockPrice": 63.5144
+        },
+        {
+            "unixTimestamp": 1651186800000,
+            "openStockPrice": 63.74,
+            "closeStockPrice": 61.77,
+            "lowStockPrice": 60.7968,
+            "highStockPrice": 64.31
+        },
+        {
+            "unixTimestamp": 1648681200000,
+            "openStockPrice": 59.93,
+            "closeStockPrice": 64.09,
+            "lowStockPrice": 58.193,
+            "highStockPrice": 64.901
+        },
+        {
+            "unixTimestamp": 1646006400000,
+            "openStockPrice": 61.29,
+            "closeStockPrice": 59.94,
+            "lowStockPrice": 56.0,
+            "highStockPrice": 62.1828
+        },
+        {
+            "unixTimestamp": 1643587200000,
+            "openStockPrice": 65.26,
+            "closeStockPrice": 60.96,
+            "lowStockPrice": 58.2208,
+            "highStockPrice": 65.4
+        },
+        {
+            "unixTimestamp": 1640822400000,
+            "openStockPrice": 63.31,
+            "closeStockPrice": 65.125,
+            "lowStockPrice": 61.8812,
+            "highStockPrice": 65.69
+        },
+        {
+            "unixTimestamp": 1638230400000,
+            "openStockPrice": 61.76,
+            "closeStockPrice": 63.32,
+            "lowStockPrice": 61.3607,
+            "highStockPrice": 65.04
+        },
+        {
+            "unixTimestamp": 1635462000000,
+            "openStockPrice": 58.07,
+            "closeStockPrice": 61.42,
+            "lowStockPrice": 57.47,
+            "highStockPrice": 61.42
+        },
+        {
+            "unixTimestamp": 1632956400000,
+            "openStockPrice": 60.18,
+            "closeStockPrice": 58.99,
+            "lowStockPrice": 58.08,
+            "highStockPrice": 60.52
+        },
+        {
+            "unixTimestamp": 1630364400000,
+            "openStockPrice": 57.89,
+            "closeStockPrice": 60.03,
+            "lowStockPrice": 57.4,
+            "highStockPrice": 60.37
+        },
+        {
+            "unixTimestamp": 1627599600000,
+            "openStockPrice": 56.75,
+            "closeStockPrice": 57.63,
+            "lowStockPrice": 56.46,
+            "highStockPrice": 58.54
+        },
+        {
+            "unixTimestamp": 1625007600000,
+            "openStockPrice": 53.82,
+            "closeStockPrice": 56.6,
+            "lowStockPrice": 53.61,
+            "highStockPrice": 56.65
+        },
+        {
+            "unixTimestamp": 1622156400000,
+            "openStockPrice": 54.8,
+            "closeStockPrice": 53.92,
+            "lowStockPrice": 52.23,
+            "highStockPrice": 55.115
+        },
+        {
+            "unixTimestamp": 1619737200000,
+            "openStockPrice": 52.58,
+            "closeStockPrice": 54.985,
+            "lowStockPrice": 52.5,
+            "highStockPrice": 55.33
+        },
+        {
+            "unixTimestamp": 1617145200000,
+            "openStockPrice": 50.04,
+            "closeStockPrice": 52.445,
+            "lowStockPrice": 49.06,
+            "highStockPrice": 52.48
+        },
+        {
+            "unixTimestamp": 1614297600000,
+            "openStockPrice": 49.305,
+            "closeStockPrice": 49.8025,
+            "lowStockPrice": 49.1,
+            "highStockPrice": 51.66
+        },
+        {
+            "unixTimestamp": 1611878400000,
+            "openStockPrice": 49.84,
+            "closeStockPrice": 49.3475,
+            "lowStockPrice": 48.92,
+            "highStockPrice": 51.23
+        },
+        {
+            "unixTimestamp": 1609372800000,
+            "openStockPrice": 49.28,
+            "closeStockPrice": 49.47,
+            "lowStockPrice": 49.19,
+            "highStockPrice": 50.4
+        },
+        {
+            "unixTimestamp": 1606694400000,
+            "openStockPrice": 45.9,
+            "closeStockPrice": 48.84,
+            "lowStockPrice": 45.9,
+            "highStockPrice": 50.4507
+        },
+        {
+            "unixTimestamp": 1604016000000,
+            "openStockPrice": 47.2,
+            "closeStockPrice": 45.515,
+            "lowStockPrice": 45.3,
+            "highStockPrice": 49.5
+        },
+        {
+            "unixTimestamp": 1601420400000,
+            "openStockPrice": 47.21,
+            "closeStockPrice": 47.125,
+            "lowStockPrice": 45.49,
+            "highStockPrice": 48.41
+        },
+        {
+            "unixTimestamp": 1598569200000,
+            "openStockPrice": 45.02,
+            "closeStockPrice": 47.175,
+            "lowStockPrice": 45.02,
+            "highStockPrice": 47.7
+        },
+        {
+            "unixTimestamp": 1596150000000,
+            "openStockPrice": 45.02,
+            "closeStockPrice": 44.4675,
+            "lowStockPrice": 44.21,
+            "highStockPrice": 46.55
+        },
+        {
+            "unixTimestamp": 1593471600000,
+            "openStockPrice": 44.27,
+            "closeStockPrice": 44.69,
+            "lowStockPrice": 42.335,
+            "highStockPrice": 45.8
+        },
+        {
+            "unixTimestamp": 1590706800000,
+            "openStockPrice": 40.75,
+            "closeStockPrice": 43.935,
+            "lowStockPrice": 40.265,
+            "highStockPrice": 44.745
+        },
+        {
+            "unixTimestamp": 1588201200000,
+            "openStockPrice": 36.32,
+            "closeStockPrice": 41.51,
+            "lowStockPrice": 35.415,
+            "highStockPrice": 42.71
+        },
+        {
+            "unixTimestamp": 1585609200000,
+            "openStockPrice": 42.065,
+            "closeStockPrice": 37.8975,
+            "lowStockPrice": 11.64,
+            "highStockPrice": 61.8
+        },
+        {
+            "unixTimestamp": 1582848000000,
+            "openStockPrice": 44.705,
+            "closeStockPrice": 40.72,
+            "lowStockPrice": 39.93,
+            "highStockPrice": 47.0
+        },
+        {
+            "unixTimestamp": 1580428800000,
+            "openStockPrice": 43.89,
+            "closeStockPrice": 43.785,
+            "lowStockPrice": 43.555,
+            "highStockPrice": 45.8
+        },
+        {
+            "unixTimestamp": 1577750400000,
+            "openStockPrice": 43.54,
+            "closeStockPrice": 43.5125,
+            "lowStockPrice": 42.04,
+            "highStockPrice": 44.65
+        },
+        {
+            "unixTimestamp": 1574985600000,
+            "openStockPrice": 41.745,
+            "closeStockPrice": 43.32,
+            "lowStockPrice": 41.745,
+            "highStockPrice": 43.63
+        },
+        {
+            "unixTimestamp": 1572480000000,
+            "openStockPrice": 43.07,
+            "closeStockPrice": 41.62,
+            "lowStockPrice": 40.955,
+            "highStockPrice": 43.085
+        },
+        {
+            "unixTimestamp": 1569798000000,
+            "openStockPrice": 42.93,
+            "closeStockPrice": 42.9975,
+            "lowStockPrice": 42.465,
+            "highStockPrice": 43.39
+        },
+        {
+            "unixTimestamp": 1567119600000,
+            "openStockPrice": 43.605,
+            "closeStockPrice": 42.4425,
+            "lowStockPrice": 41.245,
+            "highStockPrice": 43.935
+        },
+        {
+            "unixTimestamp": 1564527600000,
+            "openStockPrice": 41.395,
+            "closeStockPrice": 43.695,
+            "lowStockPrice": 41.395,
+            "highStockPrice": 44.26
+        },
+        {
+            "unixTimestamp": 1561676400000,
+            "openStockPrice": 38.56,
+            "closeStockPrice": 40.79,
+            "lowStockPrice": 38.56,
+            "highStockPrice": 41.185
+        }
+    ]
+}
