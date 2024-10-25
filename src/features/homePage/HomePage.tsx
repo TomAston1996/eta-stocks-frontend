@@ -3,6 +3,7 @@ import { Card, Container, Tab, Tabs } from 'react-bootstrap';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './home-page.css';
+import InfoCard from '../cards/InfoCard';
 import CandlestickChart from '../charts/CandlestickChart';
 import Table, { TableType } from '../table/components/Table';
 
@@ -18,6 +19,15 @@ export const HomePage = () => {
                 return (
                   <Tab key={index} eventKey={stock} title={stock}>
                     <Card.Body>
+                      <div style={{ display: 'flex', gap: 15 }}>
+                        <InfoCard data={stock} cardTitle="Ticker" />
+                        <InfoCard data={'£82.15'} cardTitle="Todays Price" />
+                        <InfoCard data={'£81.23'} cardTitle="Yesterday's Price" />
+                        <InfoCard data={'2024-10-21'} cardTitle="Last Refreshed" />
+                        <InfoCard data={'US/Eastern'} cardTitle="Time Zone" />
+                      </div>
+                      <br></br>
+                      <br></br>
                       <CandlestickChart symbol={stock} />
                       <br></br>
                       <Table symbol={stock} type={TableType.SECTOR} />
