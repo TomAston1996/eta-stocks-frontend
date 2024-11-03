@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+import { TickerCard } from '../cards/components/TickerCard';
 import SearchBar from '../searchBar/SearchBar';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -11,7 +12,7 @@ export const ExplorePage = () => {
     <div className="page-container-explore">
       <h5>Search Bar</h5>
       <SearchBar type="text" onChange={(o) => setSearchTerm(o)} placeholder="Search ticker values..." />
-      <p>Results</p>
+      <TickerCard symbol="QQQ" name="" region="UK" currency="GDP" type="ETD" />
     </div>
   );
 };

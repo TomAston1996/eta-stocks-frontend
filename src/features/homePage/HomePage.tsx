@@ -3,7 +3,7 @@ import { Card, Container, Tab, Tabs } from 'react-bootstrap';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './home-page.css';
-import InfoCard from '../cards/InfoCard';
+import InfoCard from '../cards/components/InfoCard';
 import CandlestickChart from '../charts/CandlestickChart';
 import Table, { TableType } from '../table/components/Table';
 

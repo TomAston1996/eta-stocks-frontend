@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import './card-styles.css';
+import '../info-card-styles.css';
 
 export interface InfoCardProps {
   data: string;
