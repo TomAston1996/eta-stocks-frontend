@@ -1,3 +1,11 @@
+/**
+ * @file 	    NavBar.tsx
+ * @brief	    nav bar component
+ * @author      Tom Aston
+ * @version     1.0
+ * @copyright   tomaston.dev
+ */
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 

@@ -1,0 +1,74 @@
+{
+    "bestMatches": [
+        {
+            "symbol": "QQQ",
+            "name": "Invesco QQQ Trust Series 1",
+            "type": "ETF",
+            "region": "United States",
+            "currency": "USD"
+        },
+        {
+            "symbol": "QQQA",
+            "name": "PROSHARES NASDAQ-100 DORSEY WRIGHT MOMENTUM ETF ",
+            "type": "ETF",
+            "region": "United States",
+            "currency": "USD"
+        },
+        {
+            "symbol": "QQQD",
+            "name": "Direxion Daily Concentrated Qs Bear 1X Shares",
+            "type": "ETF",
+            "region": "United States",
+            "currency": "USD"
+        },
+        {
+            "symbol": "QQQE",
+            "name": "DIREXION NASDAQ-100(R) EQUAL WEIGHTED INDEX SHARES ",
+            "type": "ETF",
+            "region": "United States",
+            "currency": "USD"
+        },
+        {
+            "symbol": "QQQG",
+            "name": "Pacer Nasdaq 100 Top 50 Cash Cows Growth Leaders ETF",
+            "type": "ETF",
+            "region": "United States",
+            "currency": "USD"
+        },
+        {
+            "symbol": "QQQI",
+            "name": "NEOS Nasdaq 100 High Income ETF",
+            "type": "ETF",
+            "region": "United States",
+            "currency": "USD"
+        },
+        {
+            "symbol": "QQQFF",
+            "name": "Quizam Media Corp",
+            "type": "Equity",
+            "region": "United States",
+            "currency": "USD"
+        },
+        {
+            "symbol": "QQQ3.LON",
+            "name": "WisdomTree NASDAQ 100 3x Daily Leveraged",
+            "type": "ETF",
+            "region": "United Kingdom",
+            "currency": "USD"
+        },
+        {
+            "symbol": "QQQ5.LON",
+            "name": "Leverage Shares 5x Long US Tech 100 ETP Securities",
+            "type": "ETF",
+            "region": "United Kingdom",
+            "currency": "USD"
+        },
+        {
+            "symbol": "QQQ5.DEX",
+            "name": "Leverage Shares 5x Long US Tech 100 ETC",
+            "type": "ETF",
+            "region": "XETRA",
+            "currency": "EUR"
+        }
+    ]
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { RouteObject } from 'react-router-dom';
 
+import { ExplorePage } from './features/explorePage/ExplorePage';
 import PageFooter from './features/footer/components/PageFooter';
 import { HomePage } from './features/homePage/HomePage';
 import { NavBar } from './features/navBar/components/NavBar';
@@ -22,7 +23,8 @@ const routes: RouteObject[] = [
     element: (
       <>
         <NavBar />
-        <HomePage />
+        <ExplorePage />
+        <PageFooter />
       </>
     ),
   },
