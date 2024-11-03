@@ -7,6 +7,8 @@
 
 # etaStocks
 
+Find backend code at:  [eta-stocks-backend](https://github.com/TomAston1996/eta-stocks)
+
 etaStocks is a web application for tracking stock and ETF (Exchange Traded Fund) price data. The backend interfaces with Alpha Vantages stocks API, 
 personalising the content for users of the app. The goal of the app is to create a personalised space for monitoring and exploring your investments.
 
