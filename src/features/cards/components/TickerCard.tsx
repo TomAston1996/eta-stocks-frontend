@@ -1,3 +1,11 @@
+/**
+ * @file 	    TickerCard.tsx
+ * @brief	    ticker card component
+ * @author      Tom Aston
+ * @version     1.0
+ * @copyright   tomaston.dev
+ */
+
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
 import '../ticker-card-styles.css';

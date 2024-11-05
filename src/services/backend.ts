@@ -1,3 +1,11 @@
+/**
+ * @file 	    backend.ts
+ * @brief	    backend api's pointing to Spring Boot app
+ * @author      Tom Aston
+ * @version     1.0
+ * @copyright   tomaston.dev
+ */
+
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 // eslint-disable-next-line import/no-cycle

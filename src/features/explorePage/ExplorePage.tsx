@@ -1,3 +1,11 @@
+/**
+ * @file 	    ExplorePage.tsx
+ * @brief	    explore page component
+ * @author      Tom Aston
+ * @version     1.0
+ * @copyright   tomaston.dev
+ */
+
 import React, { useState } from 'react';
 
 import { USE_DUMMY } from '../../app/config';

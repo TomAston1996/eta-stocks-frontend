@@ -1,3 +1,11 @@
+/**
+ * @file 	    PageFooter.tsx
+ * @brief	    page footer component
+ * @author      Tom Aston
+ * @version     1.0
+ * @copyright   tomaston.dev
+ */
+
 import React, { useState } from 'react';
 
 import './footer.css';

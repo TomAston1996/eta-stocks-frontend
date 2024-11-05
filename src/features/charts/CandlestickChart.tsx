@@ -1,3 +1,11 @@
+/**
+ * @file 	    CandleStickChart.tsx
+ * @brief	    chart component
+ * @author      Tom Aston
+ * @version     1.0
+ * @copyright   tomaston.dev
+ */
+
 import React, { useEffect, useState } from 'react';
 
 import { AgCharts } from 'ag-charts-react';

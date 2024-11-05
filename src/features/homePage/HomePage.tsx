@@ -1,3 +1,11 @@
+/**
+ * @file 	    HomePage.tsx
+ * @brief	    home page component
+ * @author      Tom Aston
+ * @version     1.0
+ * @copyright   tomaston.dev
+ */
+
 import React from 'react';
 import { Card, Container, Tab, Tabs } from 'react-bootstrap';
 

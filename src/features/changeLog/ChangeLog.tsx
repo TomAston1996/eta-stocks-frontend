@@ -1,3 +1,11 @@
+/**
+ * @file 	    ChangeLog.tsx
+ * @brief	    change log component
+ * @author      Tom Aston
+ * @version     1.0
+ * @copyright   tomaston.dev
+ */
+
 import React from 'react';
 
 import { CollapsibleSection } from './CollapsibleSection';

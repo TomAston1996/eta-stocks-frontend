@@ -1,3 +1,11 @@
+/**
+ * @file 	    ModalWindow.tsx
+ * @brief	    modal window component
+ * @author      Tom Aston
+ * @version     1.0
+ * @copyright   tomaston.dev
+ */
+
 import React from 'react';
 import { Button, Modal } from 'react-bootstrap';
 

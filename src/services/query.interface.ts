@@ -1,3 +1,11 @@
+/**
+ * @file 	    query.interface.ts
+ * @brief	    interfaces used for querying backend / responses
+ * @author      Tom Aston
+ * @version     1.0
+ * @copyright   tomaston.dev
+ */
+
 export interface IStockItem {
   stockId: number;
   symbol: string;
@@ -19,15 +27,6 @@ export interface ISeriesStockItem {
   lowStockPrice: number;
   highStockPrice: number;
 }
-
-// export interface IEtfProfileData {
-//   sectorsData: IEtfProfileItem[];
-// }
-
-// export interface IEtfProfileItem {
-//   sector: string;
-//   weight: string;
-// }
 
 export interface ITickerData {
   bestMatches: ITickerItem[];
